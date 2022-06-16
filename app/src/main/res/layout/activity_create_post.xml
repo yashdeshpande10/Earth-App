@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    tools:context=".CreatePostActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/LL_product_details"
+        android:background="@drawable/postshape"
+        android:layout_margin="10dp"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Details"
+            android:textSize="20sp"
+            android:background="#4BFFC2"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/proximanovafont"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter product category"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/proximanovafont"
+            />
+
+        <EditText
+            android:id="@+id/ET_product_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="eg: Laptop/Smartphones/etc"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/proximanovafont"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter product name"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/proximanovafont"
+            />
+
+        <EditText
+            android:id="@+id/ET_product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="eg: Apple Iphone 13"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/proximanovafont"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter model specifications"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/proximanovafont"
+            />
+
+        <EditText
+            android:id="@+id/ET_product_specs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="eg: 8GB RAM 128GB ROM"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/proximanovafont"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter product condition"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/proximanovafont"
+            />
+
+        <EditText
+            android:id="@+id/ET_product_rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="on a scale of 1-10"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/proximanovafont"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/LL_user_details"
+        android:background="@drawable/postshape"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Details"
+            android:textSize="20sp"
+            android:background="#4BFFC2"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/proximanovafont"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter full name"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/proximanovafont"
+            />
+
+        <EditText
+            android:id="@+id/ET_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/proximanovafont"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter mobile no."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/proximanovafont"
+            />
+
+        <EditText
+            android:id="@+id/ET_user_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/proximanovafont"
+            android:layout_margin="2dp"
+            />
+
+        <Button
+            android:id="@+id/btn_post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/proximanovafont"
+            android:textStyle="bold"
+            android:backgroundTint="#2196F3"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1086348589752",
+    "project_id": "e-arth-f932e",
+    "storage_bucket": "e-arth-f932e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086348589752:android:0fa4c19f99d3b4b6b4d24d",
+        "android_client_info": {
+          "package_name": "com.example.android.earth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086348589752-recbpoja96m9lsue9tvmf6n583g1bgjp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.earth",
+            "certificate_hash": "863a185085ee74ab2070f3ece4824f0d52b3ea38"
+          }
+        },
+        {
+          "client_id": "1086348589752-q2d02bdgtcdg49098oosa5uqufjjs59e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaEamMrBULzImZ_Qb8n1qimCHVJQo3dUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086348589752-q2d02bdgtcdg49098oosa5uqufjjs59e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

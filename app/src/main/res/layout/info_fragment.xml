@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#2196F3"
+
+    >
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+          >
+
+       <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:background="@drawable/postshape"
+       android:layout_margin="10dp"
+       android:padding="10dp"
+       >
+
+         <TextView
+
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="What is E-waste?"
+             android:textSize="20sp"
+             android:textColor="@color/black"
+             android:layout_margin="10dp"
+             android:background="#8BC34A"
+             android:fontFamily="@font/proximanovafont"
+             />
+
+
+         <TextView
+
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/whatEwaste"
+             android:textSize="18sp"
+             android:textColor="#207516"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:fontFamily="@font/proximanovafont"
+             />
+
+
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="175dp"
+                   android:src="@drawable/ewaste3"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_margin="10dp"/>
+
+       </LinearLayout>
+
+
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:orientation="vertical"
+       android:background="@drawable/postshape"
+       android:layout_margin="10dp"
+       android:padding="10dp">
+
+      <TextView
+
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Why is E-waste hazardous?"
+          android:textSize="20sp"
+          android:textColor="@color/black"
+          android:layout_margin="10dp"
+          android:background="#8BC34A"
+          android:fontFamily="@font/proximanovafont"
+          />
+
+      <TextView
+
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/whyHazard"
+          android:textSize="18sp"
+          android:textColor="#207516"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:fontFamily="@font/proximanovafont"
+          />
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          android:src="@drawable/hazard"
+          android:layout_gravity="center_horizontal"
+          android:fontFamily="@font/proximanovafont"
+          android:layout_margin="10dp"/>
+   </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+         android:orientation="vertical"
+          android:background="@drawable/postshape"
+          android:layout_margin="10dp"
+          android:padding="10dp">
+
+         <TextView
+
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="E-waste Facts!"
+             android:textSize="20sp"
+             android:textColor="@color/black"
+             android:layout_margin="10dp"
+             android:background="#8BC34A"
+             android:fontFamily="@font/proximanovafont"
+             />
+
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="200dp"
+             android:src="@drawable/facts"
+             android:layout_gravity="center_horizontal"
+             android:layout_margin="10dp"/>
+
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="200dp"
+             android:src="@drawable/india"
+             android:layout_gravity="center_horizontal"
+             android:layout_margin="10dp"/>
+
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="200dp"
+             android:src="@drawable/ewastegraph"
+             android:layout_gravity="center_horizontal"
+             android:layout_margin="10dp"/>
+
+      </LinearLayout>
+
+       </LinearLayout>
+
+
+   </ScrollView>
+
+
+
+</LinearLayout>

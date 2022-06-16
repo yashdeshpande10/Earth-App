@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Earth</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="whatEwaste"> The term "e-waste" is an abbreviation of "electronic and electrical waste".
+
+         E-Waste is a term used to cover items of all types of electrical and electronic equipment (EEE) and its parts that have been discarded by the owner as waste without the intention of re-use.
+    </string>
+
+    <string name="whyHazard"> If E-waste is dumped and exposed to soil and moisture, various chemicals leaches into the environment and gradually poisons the soil making it infertile.
+Irresponsible disposal and extraction of metals by the unorganized sector has further lead to air, land and water pollution affecting the human and environmental health.
+    </string>
+
+    <string name="fact1"> India is the 2nd highest e-waste polluter in the world!</string>
+
+    <string name="fact2"> 57 million metric Tonnes of e-waste are disposed worldwide every year. </string>
+
+    <string name="fact3"> 57 million metric Tonnes of e-waste are disposed worldwide every year. </string>
+
+
+</resources>

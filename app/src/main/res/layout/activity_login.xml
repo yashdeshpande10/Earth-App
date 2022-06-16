@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/earth">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/TV_Login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="320dp"
+            android:textSize="25sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="40dp"
+            android:text="Login"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/proximanovafont"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-20dp"
+            android:hint="Email"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:id="@+id/ET_LoginEmail"
+            android:fontFamily="@font/proximanovafont"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="Password"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:id="@+id/ET_LoginPassword"
+            android:fontFamily="@font/proximanovafont"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:id="@+id/btn_Login"
+            android:fontFamily="@font/proximanovafont"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account? Register."
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:id="@+id/TV_RegisterAcc"
+            android:fontFamily="@font/proximanovafont"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
