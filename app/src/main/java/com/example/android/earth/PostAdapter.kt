@@ -22,7 +22,7 @@ class PostAdapter(options: FirestoreRecyclerOptions<Post>) : FirestoreRecyclerAd
         val sellerNumber: TextView = itemView.findViewById(R.id.tv_item_sellerNumber)
         val prodCategory: TextView = itemView.findViewById(R.id.tv_item_category)
         val prodName: TextView = itemView.findViewById(R.id.tv_item_name)
-        val prodModel: TextView = itemView.findViewById(R.id.tv_item_model)
+        val prodPrice: TextView = itemView.findViewById(R.id.tv_item_price)
         val prodCondition: TextView = itemView.findViewById(R.id.tv_item_condition)
         val btnEnquire: Button = itemView.findViewById(R.id.btn_enquire)
 
@@ -38,7 +38,7 @@ class PostAdapter(options: FirestoreRecyclerOptions<Post>) : FirestoreRecyclerAd
         holder.sellerNumber.text = model.user_mobile
         holder.prodCategory.text = model.product_category
         holder.prodName.text = model.product_name
-        holder.prodModel.text = model.product_specs
+        holder.prodPrice.text = model.product_price
         holder.prodCondition.text = model.product_condition
 
         holder.btnEnquire.setOnClickListener {

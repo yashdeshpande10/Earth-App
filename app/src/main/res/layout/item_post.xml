@@ -126,10 +126,10 @@
                 />
 
             <TextView
-                android:id="@+id/tv_item_model"
+                android:id="@+id/tv_item_price"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Model: "
+                android:text="Price: "
                 android:textSize="18sp"
                 android:textColor="@color/black"
                 android:layout_weight="1"
@@ -146,7 +146,7 @@
                 android:id="@+id/tv_item_condition"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Specs: "
+                android:text="Condition: "
                 android:textSize="18sp"
                 android:layout_marginLeft="5dp"
                 android:textColor="@color/black"

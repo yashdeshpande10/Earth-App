@@ -79,7 +79,7 @@
             />
 
         <EditText
-            android:id="@+id/ET_product_specs"
+            android:id="@+id/ET_product_price"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="eg: 8GB RAM 128GB ROM"

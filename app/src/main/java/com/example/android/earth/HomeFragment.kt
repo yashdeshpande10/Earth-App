@@ -51,10 +51,10 @@ class HomeFragment : Fragment() {
 
         postDAO = PostDAO()
         val postCollections = postDAO.postCollections
-        val query = postCollections.orderBy("product_condition", Query.Direction.DESCENDING)
-        val recylerViewOptions = FirestoreRecyclerOptions.Builder<Post>().setQuery(query, Post::class.java).build()
+        val query = postCollections.orderBy("product_specs", Query.Direction.ASCENDING)
+        val recyclerViewOptions = FirestoreRecyclerOptions.Builder<Post>().setQuery(query, Post::class.java).build()
 
-        adapter = PostAdapter(recylerViewOptions)
+        adapter = PostAdapter(recyclerViewOptions)
 
         val recyclerView = view.findViewById<RecyclerView>(R.id.recyclerView)
         recyclerView.adapter = adapter
