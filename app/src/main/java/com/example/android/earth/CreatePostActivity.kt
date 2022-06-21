@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import androidx.core.text.trimmedLength
 
 class CreatePostActivity : AppCompatActivity() {
     private lateinit var postDao: PostDAO
@@ -32,7 +33,7 @@ class CreatePostActivity : AppCompatActivity() {
             val ipUM = ET_user_mobile.text.toString()
 
             if (ipPC.isNotEmpty() and ipPN.isNotEmpty() and ipPP.isNotEmpty() and ipPR.isNotEmpty()
-                and ipUN.isNotEmpty() and ipUM.isNotEmpty()){
+                and ipUN.isNotEmpty() and ipUM.isNotEmpty() and ipPC.equals("Laptop") or ipPC.equals("Smartphone")){
                 postDao.addPost(ipPC,ipPN,ipPP,ipPR,ipUN,ipUM)
                 val intent = Intent(this,MainActivity::class.java)
                 startActivity(intent)
@@ -42,8 +43,14 @@ class CreatePostActivity : AppCompatActivity() {
                     ipUN.isEmpty() or ipUM.isEmpty()){
                 Toast.makeText(this,"All inputs should be filled",Toast.LENGTH_LONG).show()
             }
+            else if (!ipPC.equals("Laptop") or !ipPC.equals("Smartphone")){
+                Toast.makeText(this,"Only 'Smartphone' and 'Laptops' Category valid",Toast.LENGTH_LONG).show()
 
-        }
+            }
 
+
+
+
+         }
     }
 }

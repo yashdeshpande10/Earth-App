@@ -45,7 +45,7 @@
             android:id="@+id/ET_product_category"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Laptop/Smartphones"
+            android:hint="Laptop/Smartphone"
             android:layout_margin="5dp"
             android:fontFamily="@font/proximanovafont"
 
