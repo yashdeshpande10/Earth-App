@@ -29,7 +29,7 @@ and educates the users about the importance of recycling e-waste ♻️
 
 
 ## Tech stack 👨‍💻
-Kotlin, XML.
+Kotlin, XML, FireBase.
 
 ## Tool 📱
 Android Studio
