@@ -18,154 +18,200 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:orientation="horizontal"
-            android:background="#A8FF42"
+            android:background="@color/white"
             android:layout_margin="5dp"
 
             >
 
             <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:src="@drawable/user"
+                android:layout_marginTop="-10dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/electronics"
                 />
 
-            <TextView
-                android:id="@+id/tv_item_sellerName"
-                android:background="#A8FF42"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Seller name: "
-                android:textSize="18sp"
-                android:textColor="@color/black"
-                android:layout_marginLeft="5dp"
-                android:layout_weight="1"
-                android:fontFamily="@font/proximanovafont"
-                android:padding="5dp"/>
+                android:orientation="vertical">
 
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:src="@drawable/telephone"
+                <TextView
+                    android:id="@+id/tv_item_name"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Item Name: "
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/proximanovafont"
+                    android:padding="5dp"/>
 
-                />
+                <TextView
+                    android:id="@+id/tv_item_category"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Category: "
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/proximanovafont"
+                    android:padding="5dp"/>
 
-            <TextView
-                android:id="@+id/tv_item_sellerNumber"
-                android:background="#A8FF42"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Contact no: "
-                android:layout_marginLeft="5dp"
-                android:textSize="18sp"
-                android:textColor="@color/black"
-                android:fontFamily="@font/proximanovafont"
-                android:layout_weight="1"
-                android:padding="5dp"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/rupee"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_item_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Price: "
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/proximanovafont"
+                        android:padding="5dp"
+                        android:layout_marginTop="5dp"/>
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#C7F8EE"
-            android:layout_margin="5dp"
+            android:background="@drawable/postshape"
+            android:backgroundTint="#E6E5E5"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="25dp"
             android:padding="10dp"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:src="@drawable/application"
-                />
 
-            <TextView
-                android:id="@+id/tv_item_category"
-                android:layout_marginLeft="5dp"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Category: "
-                android:textSize="18sp"
-                android:textColor="@color/black"
-                android:fontFamily="@font/proximanovafont"
-                android:layout_weight="1"
-                android:padding="5dp"/>
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
 
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:src="@drawable/deliverybox"
-                />
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/user"
+                    />
 
-            <TextView
-                android:id="@+id/tv_item_name"
-                android:layout_marginLeft="5dp"
+                <TextView
+                    android:id="@+id/tv_item_sellerName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Seller name: "
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/proximanovafont"
+                    android:padding="5dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/accept"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_item_condition"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Condition: "
+                    android:textSize="18sp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/proximanovafont"
+                    android:padding="5dp"/>
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/telephone"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_item_sellerNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Contact no: "
+                    android:textSize="18sp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/proximanovafont"
+                    android:padding="5dp"/>
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enquire"
+                android:layout_margin="10dp"
+                android:backgroundTint="#2196F3"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/btn_enquire"
+                android:textStyle="bold"
                 android:fontFamily="@font/proximanovafont"
-                android:text="Item Name: "
-                android:textSize="18sp"
-                android:textColor="@color/black"
-                android:layout_weight="1"
-                android:padding="5dp"/>
+                />
+
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:background="#C7F8EE"
-            android:padding="10dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
 
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:src="@drawable/letteri"
-                />
-
-            <TextView
-                android:id="@+id/tv_item_price"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Price: "
-                android:textSize="18sp"
-                android:textColor="@color/black"
-                android:layout_weight="1"
-                android:layout_marginLeft="5dp"
-                android:fontFamily="@font/proximanovafont"
-                android:padding="5dp"/>
-
-           <ImageView
-               android:layout_width="50dp"
-               android:layout_height="50dp"
-               android:src="@drawable/file"/>
-
-            <TextView
-                android:id="@+id/tv_item_condition"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Condition: "
-                android:textSize="18sp"
-                android:layout_marginLeft="5dp"
-                android:textColor="@color/black"
-                android:layout_weight="1"
-                android:fontFamily="@font/proximanovafont"
-                android:padding="5dp"/>
-
-        </LinearLayout>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Enquire"
-            android:backgroundTint="#2196F3"
-            android:layout_gravity="center_horizontal"
-            android:id="@+id/btn_enquire"
-            android:textStyle="bold"
-            android:fontFamily="@font/proximanovafont"
-            />
 
 
     </LinearLayout>

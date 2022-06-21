@@ -39,11 +39,11 @@ class PostAdapter(options: FirestoreRecyclerOptions<Post>) : FirestoreRecyclerAd
         holder.prodCategory.text = model.product_category
         holder.prodName.text = model.product_name
         holder.prodPrice.text = model.product_price
-        holder.prodCondition.text = model.product_condition
+        holder.prodCondition.text = model.product_condition+"/10"
 
         holder.btnEnquire.setOnClickListener {
             val mobileNumber = model.user_mobile
-            val callIntent: Intent = Uri.parse("tel:"+mobileNumber).let { mobileNumber ->
+            val callIntent: Intent = Uri.parse("tel:"+"0"+mobileNumber).let { mobileNumber ->
                 Intent(Intent.ACTION_DIAL, mobileNumber)
             }
             startActivity(holder.sellerNumber.context,callIntent,null)
